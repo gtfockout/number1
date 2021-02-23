@@ -61,6 +61,12 @@ p {
     width: 100%;
 }
 
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
 /* === header === */
 
 .header {
@@ -141,10 +147,7 @@ p {
     text-align: center;
 }
 
-.title {
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 42px;
+.about-me-title {
     margin-bottom: 18px;
     padding-top: 120px;
 }
@@ -154,10 +157,54 @@ p {
 }
 
 .about-me__text-item {
-    font-size: 18px;
     line-height: 22px;
 }
 
 .about-me__text-item:not(:last-child) {
     margin-bottom: 42px;
+}
+
+/* === skills === */
+
+.skills {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.skills-title {
+    margin: 91px 0 69px;
+}
+
+.skills-text {
+    margin-bottom: 83px;
+}
+
+.skills__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    width: 166px;
+    margin-bottom: 60px;
+}
+
+.skills__item-img {
+    margin-bottom: 23px;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+}
+
+.skills__item-title {
+    color: var(--un-active-color);
+    margin-bottom: 41px;
+    height: 40px;
+}
+
+.skiils__item-stars__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
